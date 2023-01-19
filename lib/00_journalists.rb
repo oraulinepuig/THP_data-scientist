@@ -61,10 +61,10 @@ def repartition(arr)
   i = 0
 
   while i < 17
-    puts "Adresses with #{i} character: #{arr.count {|x| x.length == i}}"
+    puts "Adresses avec #{i} caractères: #{arr.count {|x| x.length == i}}"
     i += 1
   end
-  puts "Adresses with 33 characters: #{arr.count {|x| x.length == 33}}"
+  puts "Adresses avec 33 caractères: #{arr.count {|x| x.length == 33}}"
 puts "\n\n"
 end
 
