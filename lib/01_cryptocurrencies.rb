@@ -9,24 +9,26 @@ curr.zip(values) {|a, b| money[a] = b.to_f}
 
 # La ou les crypto qui ont la plus grosse valeur.
 def highest_value(money)
-    puts "La ou les crypto qui ont la plus grosse valeur: #{money.max_by {|a, b| b}}"
+    puts "La ou les crypto qui ont la plus grosse valeur: #{money.max_by {|a, b| b}}" + "\n\n"
 end
 
 # La ou les crypto qui ont la plus petite valeur.
 def min_value(money)
-    puts "La ou les crypto qui ont la plus petite valeur: #{money.min_by {|a, b| b}}"
+    puts "La ou les crypto qui ont la plus petite valeur: #{money.min_by {|a, b| b}}" + "\n\n"
 end
 
 # Les devises dont le cours est inférieur à 6000
 def under_six(money)
     puts "Les devises dont le cours est inférieur à 6000: "
-    puts money.select {|a, b| b < 6000}
+    puts money.select {|a, b| b < 600}
+    puts "\n\n"
 end
 
 # La devise la plus chère parmi celles dont le cours est inférieur à 6000.
 def under_six_high(money)
     puts "La devise la plus chère parmi celles dont le cours est inférieur à 6000: "
     puts (money.select {|i, j| j < 6000}).max_by {|a, b| b}
+    puts "\n\n"
 end
 
 def perform(money)
