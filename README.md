@@ -6,8 +6,8 @@ On commencera par créer un dossier Ruby et préparer le premier programme. Ensu
 
 HOW TO USE IT
 ```sh
-	git clone https://github.com/CharlesCmt/Data-scientist_THP.git
-	cd Data-scientist_THP
+	git clone https://github.com/oraulinepuig/THP_data-scientist.git
+	cd THP_data-scientist
 ```
 
 HOW TO RUN IT
